@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Angel Disney</title>
+    <meta name="description" content="Get in touch with Angel Disney, a digital marketer and growth strategist. Let's talk about your project or any questions you may have.">
+    <meta name="keywords" content="Angel Disney, contact, digital marketer, get in touch, work together">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-900 text-gray-300 font-sans">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-white">Angel Disney</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-300 hover:text-blue-400 transition duration-300">Home</a></li>
+                <li><a href="about.html" class="text-gray-300 hover:text-blue-400 transition duration-300">About</a></li>
+                <li><a href="experience.html" class="text-gray-300 hover:text-blue-400 transition duration-300">Experience</a></li>
+                <li><a href="contact.html" class="text-blue-600 font-bold border-b-2 border-blue-600 pb-1">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <main class="container mx-auto px-6 py-20">
+        <div class="text-center animate-fade-in-down">
+            <h2 class="text-4xl font-bold text-white">Get In Touch</h2>
+            <p class="mt-2 text-lg text-gray-400">Have a question or want to work together? Let's talk.</p>
+        </div>
+        
+        <form class="max-w-xl mx-auto mt-12 bg-gray-800 p-8 rounded-lg shadow-lg animate-fade-in-up">
+            <div class="mb-6">
+                <label for="name" class="block text-gray-300 font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required>
+            </div>
+            <div class="mb-6">
+                <label for="email" class="block text-gray-300 font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" required>
+            </div>
+            <div class="mb-6">
+                <label for="message" class="block text-gray-300 font-bold mb-2">Message</label>
+                <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-600 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-transform transform hover:scale-105 duration-300">Send Message</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6 mt-20">
+        <p>&copy; 2026 Angel Disney. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
